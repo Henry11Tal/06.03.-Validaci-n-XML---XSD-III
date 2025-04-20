@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Nombre: Henry Leonardo Talavera Velasquez 
+Curso: DAW1
+Fecha: 20/4/2025 
+Ejercicio: Ejercicio 1 Longitud fija de una clave
+-->
+
+<xs:element name="clave">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:length value="10"/>
+      <xs:pattern value="[a-zA-Z0-9]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
